@@ -1,6 +1,10 @@
 Description:
 This application will read currency pairs from a CSV file, calculate the VWAP values and then save them to an output CSV file.
 
+Prerequisites:
+- JDK 21 should be installed
+- Appache Maven 3.9.9
+
 How To Run:
 1. Download the ZIP file of this application
 2. Unzip the content into the directory C:\temp
