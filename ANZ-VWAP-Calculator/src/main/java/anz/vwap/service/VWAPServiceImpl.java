@@ -31,8 +31,8 @@ public class VWAPServiceImpl implements VWAPService {
      * Returns records from a CSV input file within a specified time frame.
      *
      * @param timeWindowMilliseconds The time window in milliseconds for which CSV records is read.
-     * @param csvFilePath            Input file.
-     * @return
+     * @param csvFilePath Input file.
+     * @return A list of VWAP records.
      * @throws Exception
      */
     public List<VWAPRecord> calculateVWAP(long timeWindowMilliseconds, String csvFilePath) throws Exception {
