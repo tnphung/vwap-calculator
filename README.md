@@ -2,7 +2,8 @@ Description:
 This application will read currency pairs from a CSV file, calculate the VWAP values and then save them to an output CSV file.
 
 Prerequisites:
-- JDK 21 should be installed
+The following software should be installed before running this application.
+- JDK 21 
 - Appache Maven 3.9.9
 
 How To Run:
